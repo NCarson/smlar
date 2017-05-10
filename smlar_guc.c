@@ -211,7 +211,7 @@ set_smlar_limit(PG_FUNCTION_ARGS)
 
 	sprintf(buf,"%f", nlimit);	
 	set_config_option("smlar.threshold", buf, 
-						PGC_USERSET, PGC_S_SESSION ,GUC_ACTION_SET, true, 0);
+                       PGC_USERSET, PGC_S_SESSION ,GUC_ACTION_SET, true, 0, false);
 	PG_RETURN_FLOAT4((float4)GetSmlarLimit());
 }
 
