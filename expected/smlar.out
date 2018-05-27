@@ -1,4 +1,6 @@
 CREATE EXTENSION smlar;
+WARNING:  type input function gsmlsign_in should not be volatile
+WARNING:  type output function gsmlsign_out should not be volatile
 --sanity check
 SELECT 
 	opc.opcname, 
