@@ -1,6 +1,5 @@
 #include "smlar.h"
 
-#include "math.h"
 #include "fmgr.h"
 #include "access/gin.h"
 #include "access/skey.h"

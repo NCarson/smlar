@@ -1,6 +1,7 @@
 #ifndef _SMLAR_H_
 #define	_SMLAR_H_
 
+#include "math.h"
 #include "postgres.h"
 #include "utils/array.h"
 #include "access/tupdesc.h"
