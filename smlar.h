@@ -141,3 +141,11 @@ StatCache *getStat(void *cache, size_t n);
 #define FCall2(f, x1, x2)   FunctionCall2Coll((f), C_COLLATION_OID, (x1), (x2))
 
 #endif
+
+#ifndef FALSE
+#define FALSE   (0)
+#endif
+
+#ifndef TRUE
+#define TRUE   (1)
+#endif
